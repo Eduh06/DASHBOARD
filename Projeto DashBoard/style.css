@@ -1,0 +1,162 @@
+/*Limpar formatações padrão */
+
+*{
+	margin:  0;
+	padding: 0;
+}
+
+
+/* ---------------Inicio das formatações no Body--------------*/
+body{		
+	height: 100%;
+	font-size: 1em;		
+	font-family: helvetica, sans-serif;		
+	background: #ffffff;		
+}
+
+
+/**********************************FORMATAÇÃO DA PARTE EM CINZA DO SITE*********************************************************/
+#Area-cinza {
+	background-color: #e6e6e6;  
+	text-align: left;			
+	width: 1114px;
+	float:right;
+	min-height: 800px;
+}
+
+
+
+/**********************************MENU LATERAL DO SITE*********************************************************/
+#Menu-lateral{
+	width: 200px;				
+	margin:  20px,auto;				
+	padding: 15px;				
+	height:100%; 	
+	
+}
+
+#Area-logo{
+	padding: 15px;
+}
+
+/*************************************************RODAPÉ*********************************************************/
+#rodape{
+  clear: both;				
+  text-align: center;			
+  border-top: 2px solid;	  							
+  bottom:0em;
+  width:100%;
+  margin: auto auto;
+  padding: 10px 5px;			
+}
+
+
+.geral {
+	position: relative;
+}
+
+/* ---------------Inicio das formatações caixa---------------*/
+
+div.DASHBOARD-content{
+	border: 1px-solid red;
+}
+
+div.DASHBOARD-flex-parent{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+
+div.DASHBOARD-box{
+	display: flex;
+	align-items: space-around;
+	width: 20%;
+	height: 150px;
+	background-color: white;
+	border: solid black;
+	margin-top: 5%;
+
+}
+
+/* -------------- Inicio das Formatações em Geral-----------*/
+h1{								
+	color: black;
+	font-size: 25px;
+	margin-top: 25px;
+	margin-left: 20px;
+}
+h1 img {  height: 24px;
+		  width: 24px;
+
+
+}
+
+h2{								
+	color: black;
+	margin-top: 25px;
+}
+
+
+h3{								
+	color: black;
+	padding-bottom: 25px;
+}
+
+#imgpos {
+		
+		left:50%;
+		top:50%;
+		margin-left:15em;
+		margin-top:2em;
+		margin-bottom: 3em;
+		}
+
+#imgpos2 {
+		width: 120px;
+		margin-left:25em;
+		margin-top:2em;
+		margin-bottom: 3em;
+		}
+
+
+
+.nomeEmpresa a {
+	text-decoration: none;			
+	color: orange;
+	padding: 118px 12px;			
+}
+
+.DASHBOARD-box img{
+	margin-left: 5px;
+	margin-top: 0px;
+	height: 70px;
+	width: 70px;
+
+}
+span{
+	margin-top: 80px;
+    position: absolute;
+    margin-left: 8px;
+}
+.DASHBOARD-box p{
+	margin-left: 55%;
+    margin-top: 5%;
+}
+#fundo1{
+	background-color: #FA5858;
+}
+#fundo2{
+	background-color: #2E9AFE;
+}
+#fundo3{
+	background-color: #2EFE64;
+}
+#fundo4{
+	background-color: #F7FE2E;
+}
+				
+.tabela{
+		margin-left: 25%;
+    margin-top: 5%;
+}
